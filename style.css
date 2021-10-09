@@ -274,8 +274,12 @@ a {
     display: block;
 }
 
-.menu_item dt:first-child {
+.menu_item dt:first-child { 
     border-bottom: none;
+}
+
+.border {
+    border-bottom: 1px dotted #fff;
 }
 
 .menu_item dd {
@@ -340,6 +344,10 @@ a {
     font-weight: bold;
     text-decoration: underline;
     padding-top: 30px;
+}
+
+#bar_menu {
+    margin-top: 60px;
 }
 
 /*-------------
